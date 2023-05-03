@@ -29,9 +29,9 @@ SET DATA TYPE varchar(32)
 -- 6. Вставить три любых записи с автогенерацией идентификатора
 INSERT INTO student (first_name, last_name, birth_date)
 VALUES
-('Olga', 'Yarosh', '1991-01-22'),
-('Ivan', 'Ivanov', '1990-02-13'),
-('Alex', 'Alexandrov', '1992-03-18')
+('Ivan', 'Ivanov', '1985-01-1'),
+('Jon', 'Smith', '1986-02-2'),
+('Petr', 'Petrov', '1987-03-3')
 
 -- 7. Удалить все данные из таблицы со сбросом идентификатор в исходное состояние
 TRUNCATE TABLE student

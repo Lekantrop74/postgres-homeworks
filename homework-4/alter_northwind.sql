@@ -22,5 +22,3 @@ DROP CONSTRAINT pk_products CASCADE;
 
 DELETE FROM products
 WHERE discontinued = 1
-
-SELECT * FROM products
